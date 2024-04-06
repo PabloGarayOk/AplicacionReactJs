@@ -3,12 +3,15 @@ import reactLogo from './assets/img/react.svg'
 //import viteLogo from '/vite.svg'
 import viteLogo from './assets/img/vite.svg'
 import './assets/css/App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <button class="btn btn-primary">Botón de bootstrap</button>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
